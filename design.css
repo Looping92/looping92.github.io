@@ -16,12 +16,12 @@ body{
 }
 
 footer{
-	font-size:1.1em;
+	font-size:1em;
 }
 
 @media all and (min-width: 48em){
 	body{
-	background:blue;
+	background:yellow;
 	font-size:1.4em;
 	}
 	footer{
