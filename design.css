@@ -12,10 +12,20 @@ body{
 	-moz-box-sizing: border-box;
 	box-sizing:border-box;
 	background:green;
-	font-size:1.6em
+	font-size:1.6em;
 }
 
 footer{
+	font-size:1em;
+}
+
+h1{
+	font-size:1.6em;
+}
+h2{
+	font-size:1.3em;
+}
+h3{
 	font-size:1em;
 }
 
@@ -27,6 +37,15 @@ footer{
 	footer{
 	font-size:0.9em;
 }
+h1{
+	font-size:1.4em;
+}
+h2{
+	font-size:1.1em;
+}
+h3{
+	font-size:0.8em;
+}
 }
 
 @media all and (min-width: 60em){
@@ -37,4 +56,13 @@ footer{
 	footer{
 	font-size:0.7em;
 }	
+h1{
+	font-size:1.3em;
+}
+h2{
+	font-size:1em;
+}
+h3{
+	font-size:0.7em;
+}
 }
