@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+@viewport{ 
+	width: device-width;
+	zoom: 1;
+}
+html{
+	width:100%;
+}
+
+body{
+	box-sizing:border-box;
+	background:green;
+}
+
+@media all and (min-width: 48em){
+	body{
+	background:blue;
+	}
+}
+
+@media all and (min-width: 60em){
+	body{
+	background:red;
+	}	
+}
