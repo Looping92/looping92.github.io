@@ -12,17 +12,19 @@ body{
 	-moz-box-sizing: border-box;
 	box-sizing:border-box;
 	background:green;
-	font-size:1em
+	font-size:1.2em
 }
 
 @media all and (min-width: 48em){
 	body{
 	background:blue;
+	font-size:1.5em;
 	}
 }
 
 @media all and (min-width: 60em){
 	body{
 	background:red;
+	font-size:1.3em;
 	}	
 }
