@@ -8,8 +8,11 @@ html{
 }
 
 body{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing:border-box;
 	background:green;
+	font-size:1em
 }
 
 @media all and (min-width: 48em){
